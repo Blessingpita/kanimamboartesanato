@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Kanimambo Artesanato</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body class="contato">
+
+    <header>
+        <h1>Kanimambo Artesanato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+<br>
+    <section class="contact-container">
+        <h2>Entre em Contato</h2>
+        <p>Tem alguma dúvida? Preencha o formulário e retornaremos o mais breve possível.</p>
+
+        <div class="contact-info">
+            <p><strong>Endereço:</strong> Av. Principal, Maputo, Moçambique</p>
+            <p><strong>Telefone:</strong> +258 84 919 8261 / +258 86 975 7892</p>
+            <p><strong>Email:</strong> contato@kanimambo.com</p>
+        </div>
+
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+
+        <p id="success-message" class="hidden">Mensagem enviada com sucesso!</p>
+
+        <div class="social-links">
+            <p>Siga-nos:</p>
+            <a href="#" class="social-btn">Facebook</a>
+            <a href="#" class="social-btn">Instagram</a>
+            <a href="#" class="social-btn">WhatsApp</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kanimambo Artesanato. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
